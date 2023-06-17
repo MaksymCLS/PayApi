@@ -1,0 +1,33 @@
+ @mixin fl($align: center, $justify: space-between) {
+     display: flex;
+     align-items: $align;
+     justify-content: $justify;
+   }
+ 
+ @mixin btn-v1 {
+     margin-left: auto;
+     min-width: 173px;
+     height: 48px;
+     background: #BA4270;
+     border: none;
+     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+     border-radius: 24px;
+     font-family: 'Public Sans';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 18px;
+     letter-spacing: -0.115385px;
+     color: #FBFCFE;
+     cursor: pointer;
+ }
+
+ @mixin bold_grey{
+     font-weight: 700;
+     color: #6C8294;
+ }
+ @mixin bold{
+     font-weight: 700;
+     letter-spacing: -0.1px;
+     color: #36536B;
+ }
